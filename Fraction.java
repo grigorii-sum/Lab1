@@ -39,14 +39,6 @@ class Fraction {
         this.denom /= a;
     }
 
-    public byte compare(Fraction fr) {
-        if (this.num * fr.denom < fr.num * this.denom) {
-            return -1;
-        } else {
-            return (byte)(this.num * fr.denom == fr.num * this.denom ? 0 : 1);
-        }
-    }
-
     public Fraction sum(Fraction fr) {
         Fraction res = new Fraction();
         res.num = this.num * fr.denom + fr.num * this.denom;
