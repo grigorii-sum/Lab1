@@ -38,6 +38,15 @@ class Set {
         }
     }
 
+    public Fraction min() {
+        if (this.fractions.isEmpty()) {
+            System.out.println("Массив пуст");
+            return this.min;
+        } else {
+            return this.min;
+        }
+    }
+
     public int countMax(Fraction n) {
         int count = 0;
         Iterator var3 = this.fractions.iterator();
