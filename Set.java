@@ -47,20 +47,6 @@ class Set {
         }
     }
 
-    public int countMax(Fraction n) {
-        int count = 0;
-        Iterator var3 = this.fractions.iterator();
-
-        while(var3.hasNext()) {
-            Fraction fr = (Fraction)var3.next();
-            if (fr.compare(n) == 1) {
-                ++count;
-            }
-        }
-
-        return count;
-    }
-
     public int countMin(Fraction n) {
         int count = 0;
         Iterator var3 = this.fractions.iterator();
