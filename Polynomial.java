@@ -39,10 +39,4 @@ class Polynomial {
         Polynomial res = new Polynomial(set);
         return res;
     }
-
-    public void printf() {
-        for(int i = 0; i < this.coeff.getSize(); ++i) {
-            this.coeff.get(i).print();
-        }
-    }
 }
